@@ -27,3 +27,12 @@ for num in numbers1:
         max_num = num
 print("Maximum:", max_num)
 
+print("5 Statement")
+
+
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+for row in matrix:
+    for element in row:
+        print(element, end=" ")
+    print() 
+
