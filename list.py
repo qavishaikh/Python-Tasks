@@ -11,3 +11,9 @@ sum = 0
 for num in numbers:
     sum += num
 print("Sum",sum)
+
+print("Third Statement")
+
+fruits = ["apple", "banana", "orange", "grape"]
+for fruit in fruits:
+    print("I like", fruit + "s")
