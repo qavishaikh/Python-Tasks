@@ -36,3 +36,10 @@ for row in matrix:
         print(element, end=" ")
     print() 
 
+print("6 Statement")
+
+fruits = ["apple", "banana", "orange", "grape"]
+for index, fruit in enumerate(fruits):
+    print("Fruit at index", index, ":", fruit)
+
+
