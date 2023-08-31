@@ -17,3 +17,13 @@ print("Third Statement")
 fruits = ["apple", "banana", "orange", "grape"]
 for fruit in fruits:
     print("I like", fruit + "s")
+
+print("4 Statement")
+
+numbers1 = [17, 42, 822, 99, 23]
+max_num = numbers1[0]
+for num in numbers1:
+    if num > max_num:
+        max_num = num
+print("Maximum:", max_num)
+
