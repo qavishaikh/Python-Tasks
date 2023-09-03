@@ -42,4 +42,4 @@ fruits = ["apple", "banana", "orange", "grape"]
 for index, fruit in enumerate(fruits):
     print("Fruit at index", index, ":", fruit)
 
-
+print("7 Statement")
