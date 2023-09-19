@@ -19,7 +19,7 @@ while True:
         print("\nInsert at random")
         item = input("Enter the Item: ")
         position = int(input("Enter the position: "))
-        my_list.insert(position, item)
+        my_list.insert(position -1, item)
         print(f"{item} is Inserted at {position}")
         print(my_list)
     elif choice == "3":
