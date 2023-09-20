@@ -35,7 +35,7 @@ while True:
                 print(my_list)
             elif third == "2":
                 print("\n Multiple Items ")
-                item = input("Enter the Multiple Items")
+                item = input("Enter the Multiple Items Seprateed By Comma (,)")
                 items_list = item.split(",")
                 my_list.extend(items_list)
                 print(my_list)
